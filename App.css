@@ -1,0 +1,47 @@
+*{
+background: #000000;
+/* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3d3d3d, #000000);
+/* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #3d3d3d, #000000);
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+
+.App {
+  
+  text-align: center;
+  margin-top: 150px;
+
+}
+
+.App h1{
+  font-size: 80px;
+  background: -webkit-linear-gradient(rgb(4, 255, 242), rgb(252, 246, 246));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900;
+  font-family:cursive;
+  
+  
+}
+
+.App h2{
+  font-size: 40px;
+  color: #fff;
+  font-family: monospace;
+  background: -webkit-linear-gradient(rgb(221, 216, 210), rgb(231, 117, 117));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+}
+
+@media(max-width: 700px){
+  .App h1, h2{
+    font-size: 40px;
+  }
+}
+
+
