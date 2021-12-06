@@ -1,5 +1,6 @@
 import './App.css';
 import React, { useState, useEffect } from 'react'
+import Greet from './Greet'
 
 
 function App() {
@@ -47,8 +48,8 @@ function App() {
   return (
     <div className="App">
       <h1>Hello Netizens!!</h1>
-      <h2>It is {time}, {today}</h2>
-      <h2>Have a great day :)</h2>
+      <h2><Greet /></h2>
+      <h2>It is {time}, {today}</h2>      
     </div>
   );
 }
